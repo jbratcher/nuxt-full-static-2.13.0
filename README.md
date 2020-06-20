@@ -1,20 +1,24 @@
-# full-static-2-13-0
+# Nuxt Full Static
+
+[Going full static](https://nuxtjs.org/blog/going-full-static)
 
 ## Build Setup
 
 ```bash
 # install dependencies
-$ yarn install
+npm install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+npm run dev
 
 # build for production and launch server
-$ yarn build
-$ yarn start
+npm run build && npm run start
 
 # generate static project
-$ yarn generate
+npm run build && npm run export
+
+# serve static site after build and export
+npm run serve
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
