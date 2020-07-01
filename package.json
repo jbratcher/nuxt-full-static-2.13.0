@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
+    "build:static": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "export": "nuxt export",
+    "static": "nuxt build && nuxt export",
     "serve": "nuxt serve"
   },
   "dependencies": {

@@ -44,6 +44,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
+    // Doc: https://pwa.nuxtjs.org/
     "@nuxtjs/pwa",
     // Doc: https://github.com/nuxt/content
     "@nuxt/content"
@@ -58,6 +59,11 @@ export default {
    ** See https://content.nuxtjs.org/configuration
    */
   content: {},
+  /*
+   ** PWA module configuration
+   ** See https://pwa.nuxtjs.org/setup.html
+   */
+  pwa: {},
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
